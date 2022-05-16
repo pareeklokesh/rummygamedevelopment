@@ -1182,7 +1182,6 @@ background: #191919 !important;
     background-attachment: scroll;
     background-size: auto;
   background-size: cover !important;
-  background-attachment: fixed !important;
   position: relative;
 }
 .why_choose::before {
