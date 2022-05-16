@@ -913,7 +913,7 @@ or Software Updates. We take care of all these.</p>
     <!-- The Modal -->
     <div class="modal fade" id="myModal">
       <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content" style="background: transparent !important;border: 0 !important;">
         
           <!-- Modal Header -->
           <div class="model_header">
@@ -929,20 +929,16 @@ opacity: 1;font-size: 30px !important;position: absolute;right: 21px;top: 5px;">
           <!-- Modal body -->
           <div class="model_body">
             
-            <!-- Note :
-               - You can modify the font style and form style to suit your website. 
-               - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code. 
-               - The Mandatory check script can modified as to suit your business needs. 
-               - It is important that you test the modified form before going live.-->
-            <div id='crmWebToEntityForm' style='margin:auto;'>
+            <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='margin: 0px auto;'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
    <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-   <script src='../www.google.com/recaptcha/api.js' async defer></script>
+   <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1742164000003062010 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory1742164000003062010()' accept-charset='UTF-8'>
  <input type='text' style='display:none;' name='xnQsjsdp' value='89a4c4e1cd2b8d798a13869a512e0430f10d4e54011dc2ab6ecb48142704f733'></input> 
  <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
  <input type='text' style='display:none;' name='xmIwtLD' value='c6e4fdd49e7ece532078ecf1f399f64d1be5b199d0001c4e4af04e5243b6ac98'></input> 
  <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
- <input type='text' style='display:none;' name='returnURL' value='thank-you.html' > </input>
+ <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.rummygamedevelopment.com&#x2f;thank-you.html' > </input>
    <!-- Do not remove this code. -->
    <input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
    <input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
@@ -958,69 +954,69 @@ opacity: 1;font-size: 30px !important;position: absolute;right: 21px;top: 5px;">
               <div class="row">
                   <div class="col-md-6 col-xs-6 col-6 col1">
                     <label class="form_label" for="fname">First Name<span style="color:red;">*</span></label>
-                    <input type='text' class="form_input" onkeydown="return /[a-z]/i.test(event.key)" style='width:100%;box-sizing:border-box;'  maxlength='40' name='First Name' />
+                    <input type='text' class="form_input" id='First_Name' name='First Name' maxlength='40'>
                   </div>
                   <div class="col-md-6 col-xs-6 col-6 col1">      
                     <label class="form_label" for="lname">Last Name<span style="color:red;">*</span></label>
-                    <input class="form_input" type='text' onkeydown="return /[a-z]/i.test(event.key)" style='width:100%;box-sizing:border-box;'  maxlength='80' name='Last Name' />
+                    <input type='text' class="form_input" id='Last_Name' name='Last Name' maxlength='80'>
                   </div>
                   <div class="col-md-6 col1">        
                     <label class="form_label" for="email">Email<span style="color:red;">*</span></label>
-                    <input class="form_input" type='text' style='width:100%;box-sizing:border-box;'  maxlength='100' name='Email' ftype='email'/>
+                    <input type='text' class="form_input" ftype='email' id='Email' name='Email' maxlength='100'>
                   </div>
                   <div class="col-md-6 col1">     
                     <label class="form_label" for="mobile">Mobile<span style="color:red;">*</span></label>
-                    <input class="form_input" onkeydown="return /[0-9]/i.test(event.key)" type='text' style='width:100%;box-sizing:border-box;'  maxlength='30' name='Mobile' />
+                    <input type='text' class="form_input" id='Mobile' name='Mobile' maxlength='30'>
                   </div>
                   <div class="col-md-12 col1">      
                     <label class="form_label" for="requirement">Requirement </label>
-                    <textarea class="form_input" name='Description' maxlength='32000' style='width:100%;'>&nbsp;</textarea>
+                    <textarea class="form_input" id='Description' name='Description'></textarea>
                   </div> 
                   <div class="col-md-12 col1">
-                    <center>
-                      <div class='g-recaptcha' data-sitekey='6LerTcAZAAAAAPCp-yqkRPmgR8ihu3CrcIZA0bD-' data-theme='light' data-callback='rccallback' captcha-verified='false' id='recap'></div>
-                    </center>
+                    <div class='zcwf_col_fld'>
+  <div class='g-recaptcha' data-sitekey='6LerTcAZAAAAAPCp-yqkRPmgR8ihu3CrcIZA0bD-' data-theme='light' data-callback='rccallback1742164000003062010' captcha-verified='false' id='recap1742164000003062010'></div><div  id='recapErr1742164000003062010' style='font-size:12px;color:red;visibility:hidden;'>Captcha validation failed. If you are not a robot then please try again.</div></div>
                   </div>
                   
                   <div class="col-md-6 col-xs-6 col-6 col1">
-                    <div class="btn_outer">    
-                      <input class="btn_btn" style='margin-right: 5px;color:#000000;text-transform: uppercase;' id='formsubmit' type='submit' value='Submit' > 
+                    <div class="btn_outer">  
+                    <input type='submit' id='formsubmit' class="btn_btn" style='margin-right: 5px;color:#000000;text-transform: uppercase;' value='Submit' title='Submit'>  
+                      
                     </div>
                   </div> 
                   <div class="col-md-6 col-xs-6 col-6 col1">
-                    <div class="btn_outer">    
-                      <input class="btn_btn bg-white" type='reset' name='reset' style='cursor: pointer;color:#000000;text-transform: uppercase;' value='Reset' /> 
+                    <div class="btn_outer">
+                    <input type='reset' class="btn_btn bg-white" style='cursor: pointer;color:#000000;text-transform: uppercase;' name='reset' value='Reset' title='Reset'>    
+                       
                     </div>
                   </div> 
-                </div> 
+                </div>
 
-              <script>
-    
+               <script>
 
   /* Do not remove this code. */
-    function rccallback() {
-     document.getElementById('formsubmit').removeAttribute('disabled');
-  if(document.getElementById('privacyTool')!=undefined){ 
-   var recap = document.getElementById('recap');
-   recap.setAttribute('captcha-verified',true);
-   }
-   }
-   function checkReCapSubmit() { 
-   if(document.getElementById('recap') != undefined){ 
-   var submitbutton = document.getElementById('formsubmit');
-   var recap = document.getElementById('recap');
-  if( recap.getAttribute('captcha-verified') == 'false'){
-  submitbutton.setAttribute('disabled', true);
-  }
-   }
-   } 
-var mndFileds=new Array('First Name','Last Name','Email','Mobile');
-    var fldLangVal=new Array('First Name','Last Name','Email','Phone/Whatsapp'); 
-    var name='';
-    var email='';
-  function validateEmail()
+  function rccallback1742164000003062010()
   {
-    var emailFld = document.querySelectorAll('[ftype=email]');
+    if(document.getElementById('recap1742164000003062010')!=undefined){
+      document.getElementById('recap1742164000003062010').setAttribute('captcha-verified',true);
+    }
+    if(document.getElementById('recapErr1742164000003062010')!=undefined && document.getElementById('recapErr1742164000003062010').style.visibility == 'visible' ){
+      document.getElementById('recapErr1742164000003062010').style.visibility='hidden';
+    }
+  }
+  function reCaptchaAlert1742164000003062010()
+  {
+    var recap = document.getElementById('recap1742164000003062010');
+    if( recap !=undefined && recap.getAttribute('captcha-verified') == 'false')
+    {
+      document.getElementById('recapErr1742164000003062010').style.visibility='visible';
+      return false;
+    }
+    return true;
+  }
+  function validateEmail1742164000003062010()
+  {
+    var form = document.forms['WebToLeads1742164000003062010'];
+    var emailFld = form.querySelectorAll('[ftype=email]');
     var i;
     for (i = 0; i < emailFld.length; i++)
     {
@@ -1041,6 +1037,8 @@ var mndFileds=new Array('First Name','Last Name','Email','Mobile');
   }
 
     function checkMandatory1742164000003062010() {
+    var mndFileds = new Array('First Name','Last Name','Email','Mobile');
+    var fldLangVal = new Array('First\x20Name','Last\x20Name','Email','Phone\x2FWhatsapp');
     for(i=0;i<mndFileds.length;i++) {
       var fieldObj=document.forms['WebToLeads1742164000003062010'][mndFileds[i]];
       if(fieldObj) {
@@ -1074,13 +1072,28 @@ var mndFileds=new Array('First Name','Last Name','Email','Mobile');
       } catch (e) {}
         }
     }
-    trackVisitor();
-    if(!validateEmail()){return false;}
+    trackVisitor1742164000003062010();
+    if(!validateEmail1742164000003062010()){return false;}
     
-    document.getElementById('formsubmit').disabled=true;
+    if(!reCaptchaAlert1742164000003062010()){return false;}
+    document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
   }
-</script><script type='text/javascript' id='VisitorTracking'>var $zoho= $zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:'36adf351164eed3d0e4937918e70cac7c07780eb0adbdcea04f1c50e9434cccc7c1ed30769d0dddd99759860a463ef4d', values:{},ready:function(){}};var d=document;s=d.createElement('script');s.type='text/javascript';s.id='zsiqscript';s.defer=true;s.src='https://salesiq.zoho.com/widget';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);function trackVisitor(){try{if($zoho){var LDTuvidObj = document.forms['WebToLeads1742164000003062010']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads1742164000003062010']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads1742164000003062010']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}} catch(e){}}</script>
-  <!-- Do not remove this --- Analytics Tracking code starts --><script id='wf_anal' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=c6e4fdd49e7ece532078ecf1f399f64d1be5b199d0001c4e4af04e5243b6ac98gid89a4c4e1cd2b8d798a13869a512e0430f10d4e54011dc2ab6ecb48142704f733gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&amp;tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a'></script><!-- Do not remove this --- Analytics Tracking code ends. --></form>
+
+function tooltipShow1742164000003062010(el){
+  var tooltip = el.nextElementSibling;
+  var tooltipDisplay = tooltip.style.display;
+  if(tooltipDisplay == 'none'){
+    var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
+    for(i=0; i<allTooltip.length; i++){
+      allTooltip[i].style.display='none';
+    }
+    tooltip.style.display = 'block';
+  }else{
+    tooltip.style.display='none';
+  }
+}
+</script><script type='text/javascript' id='VisitorTracking'>var $zoho= $zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:'36adf351164eed3d0e4937918e70cac7c07780eb0adbdcea04f1c50e9434cccc7c1ed30769d0dddd99759860a463ef4d', values:{},ready:function(){}};var d=document;s=d.createElement('script');s.type='text/javascript';s.id='zsiqscript';s.defer=true;s.src='https://salesiq.zoho.com/widget';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);function trackVisitor1742164000003062010(){try{if($zoho){var LDTuvidObj = document.forms['WebToLeads1742164000003062010']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads1742164000003062010']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads1742164000003062010']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}} catch(e){}}</script>
+  <!-- Do not remove this --- Analytics Tracking code starts --><script id='wf_anal' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=c6e4fdd49e7ece532078ecf1f399f64d1be5b199d0001c4e4af04e5243b6ac98gid89a4c4e1cd2b8d798a13869a512e0430f10d4e54011dc2ab6ecb48142704f733gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a'></script><!-- Do not remove this --- Analytics Tracking code ends. --></form>
 </div>
 
           </div>
