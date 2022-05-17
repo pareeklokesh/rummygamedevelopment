@@ -55,7 +55,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </script>
 
     <script type='text/javascript' src='crm.zoho.com/crm/javascript/zcga.html'></script>
-	
+	<style>
+   @media (max-width: 768px) {
+    .displaynonemobile {
+      display: none !important;
+    }
+   }
+
+  </style>
 </head>
 <body>
     
@@ -99,7 +106,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </header>
 
     <!-- Banner -->
-    <section class="banner" style="padding-bottom: 50px;">
+    <section class="banner" style="padding-bottom: 50px !important;position: relative;overflow: hidden;">
       <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col1">
@@ -111,7 +118,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
             </div>
 
-            <div class="col-lg-6 col2">
+            <div class="col-lg-6 col2 displaynonemobile" style="position: absolute;right: -15px;bottom: 0;">
               <img src="images/banner_img.png">
             </div>
         </div>
