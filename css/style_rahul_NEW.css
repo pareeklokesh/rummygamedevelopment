@@ -607,8 +607,6 @@ footer .icon_fixed .whatsapp_fixed {
 
 @media (max-width: 768px) {
   .banner .col2 img {
-  transform: rotate(180deg);
-  margin-bottom: -2px;
   margin-top: 30px;
 }
 .banner .col2 {
@@ -616,6 +614,9 @@ footer .icon_fixed .whatsapp_fixed {
 }
 .banner {
   height: auto;
+}
+.banner {
+  padding-bottom: 0 !important;
 }
 
 }
