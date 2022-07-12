@@ -271,7 +271,7 @@ header .navbar .collapse ul li button:hover{
 
 /*****************************contact us css**************************/
 .contact_us{
-  background-image: url('../images/contact_bg.jpg');
+  background-image: url('../images/contact_bg.avif');
   background-size: cover;
 }
 .contact_us .overlay{
@@ -697,16 +697,7 @@ background: radial-gradient(circle at 50%, #1a56b1 66%, transparent 50%);
 .img-video img {
   max-height: 510px;
 }
-.img-video .phone-video {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 180px;
-  top: 18px;
-  border-radius: 20px;
-  z-index: 1;
-}
+
 .img-video img {
   width: 206px;
   height: calc(2013 / 1056 * 206px);
@@ -871,16 +862,7 @@ background: radial-gradient(circle at 50%, #fdd58e 66%, transparent 50%);
 .img-video img {
   max-height: 510px;
 }
-.img-video .phone-video {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 180px;
-  top: 18px;
-  border-radius: 20px;
-  z-index: 1;
-}
+
 .img-video img {
   width: 206px;
   height: calc(2013 / 1056 * 206px);
@@ -1176,10 +1158,10 @@ background: #191919 !important;
   margin-bottom: 15px;
 }
 .why_choose {
-  background: url(../images/whychoose.jpg) !important;
+  background: url(../images/whychoose.avif) !important;
 }
 .why_choose {
-  background: url(../images/whychoose.jpg) no-repeat !important;
+  background: url(../images/whychoose.avif) no-repeat !important;
     background-attachment: scroll;
     background-size: auto;
   background-size: cover !important;
