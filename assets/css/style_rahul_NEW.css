@@ -1449,5 +1449,10 @@ footer .icon_fixed .whatsapp_fixed {
 .discuss-form .btn_outer .btn_btn {
   margin-top: 0 !important;
 }
-
+.banner .col1 .welcome_content {
+  padding-top: 0 !important;
+}
+.banner {
+  padding-top: 100px;
+}
 }
