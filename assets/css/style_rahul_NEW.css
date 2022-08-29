@@ -585,6 +585,9 @@ footer .icon_fixed .whatsapp_fixed {
 }
 
 }
+.dnonemb {
+  display: none;
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px){
   .banner .col1 .welcome_content{
@@ -630,6 +633,9 @@ span.__cf_email__ {
 }
 #id_header {
   padding: 3px 0;
+}
+.dnonemb {
+  display: block;
 }
 
 }
