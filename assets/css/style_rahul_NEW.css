@@ -625,7 +625,18 @@ footer .icon_fixed .whatsapp_fixed {
   background: #fff;
   margin-bottom: 8px;
 }
+span.__cf_email__ {
+    word-break: break-all;
+}
+#id_header {
+  padding: 3px 0;
+}
 
+}
+@media (max-width: 400px) {
+  .img-video {
+    width: 100%;
+  }
 }
 
 
