@@ -1438,16 +1438,9 @@ footer .icon_fixed .whatsapp_fixed {
   padding: 10px;
   display: flex;
 }
-.callbtn i img {
-  width: 18px;
-}
+
 .callbtn i {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
+  background: transparent !important;
 }
 #myModal {
   z-index: 999999;
