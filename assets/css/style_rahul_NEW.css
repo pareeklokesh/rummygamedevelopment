@@ -1438,6 +1438,17 @@ footer .icon_fixed .whatsapp_fixed {
   padding: 10px;
   display: flex;
 }
+.callbtn i img {
+  width: 18px;
+}
+.callbtn i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (max-width: 767px) {
   .discuss-form .model_header h3 {
@@ -1454,5 +1465,20 @@ footer .icon_fixed .whatsapp_fixed {
 }
 .banner {
   padding-top: 100px;
+}
+.discuss-form.modal .model_body .col1 .form_input {
+  height: 32px;
+}
+.discuss-form.modal .model_body .col1 textarea.form_input {
+  height: inherit;
+}
+.discuss-form.modal .model_body .col1 .form_label {
+  font-size: 13px;
+}
+.discuss-form.modal .modal .model_body .col1 {
+  margin-bottom: 5px;
+}
+.modal .model_body {
+  padding: 20px 25px;
 }
 }
