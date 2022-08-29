@@ -618,6 +618,13 @@ footer .icon_fixed .whatsapp_fixed {
 .banner {
   padding-bottom: 0 !important;
 }
+.menumb {
+  display: block;
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 8px;
+}
 
 }
 
