@@ -1504,3 +1504,9 @@ header .navbar .collapse ul li a:hover {
 }
 
 }
+
+@media (max-width: 400px) {
+  .img-video {
+  width: 100% !important;
+}
+}
