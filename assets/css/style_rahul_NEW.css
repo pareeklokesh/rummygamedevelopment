@@ -586,7 +586,7 @@ footer .icon_fixed .whatsapp_fixed {
 
 }
 .dnonemb {
-  display: none;
+  display: none !important;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px){
@@ -635,7 +635,7 @@ span.__cf_email__ {
   padding: 3px 0;
 }
 .dnonemb {
-  display: block;
+  display: block !important;
 }
 
 }
@@ -1437,4 +1437,17 @@ width: 24px;
 footer .icon_fixed .whatsapp_fixed {
   padding: 10px;
   display: flex;
+}
+
+@media (max-width: 767px) {
+  .discuss-form .model_header h3 {
+  font-size: 20px;
+}
+.discuss-form .model_header h6 {
+  font-size: 14px;
+}
+.discuss-form .btn_outer .btn_btn {
+  margin-top: 0 !important;
+}
+
 }
