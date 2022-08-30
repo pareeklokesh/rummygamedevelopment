@@ -1455,7 +1455,7 @@ footer .icon_fixed .whatsapp_fixed {
 
 @media (max-width: 767px) {
   .discuss-form .model_header h3 {
-  font-size: 20px;padding-top: 5px !important;
+  font-size: 18px;padding-top: 5px !important;padding-right: 18px;
 }
 .discuss-form .model_header .close {
   top: -4px !important;
@@ -1471,7 +1471,11 @@ footer .icon_fixed .whatsapp_fixed {
   opacity: 1 !important;
 }
 .discuss-form .model_header {
-  padding-top: 15px;
+  padding: 0 5px;
+}
+.discuss-form .model_header .close {
+  top: 0px !important;
+  right: 5px !important;
 }
 .discuss-form .model_body {
   padding-top: 10px !important;
