@@ -1502,6 +1502,9 @@ header .navbar .collapse ul li a:hover {
 #id_header.sticky-top, #id_header {
   background: #000 !important;
 }
+header .navbar .rahul img {
+  width: 130px;
+}
 
 }
 
