@@ -1466,6 +1466,10 @@ footer .icon_fixed .whatsapp_fixed {
 .sticky-top .navbar .collapse ul li button {
   margin-top: 8px;
 }
+.discuss-form, .discuss-form * {
+  transition: none !important;
+  opacity: 1 !important;
+}
 .discuss-form .model_header {
   padding-top: 15px;
 }
