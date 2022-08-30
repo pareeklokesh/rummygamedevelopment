@@ -1477,6 +1477,9 @@ footer .icon_fixed .whatsapp_fixed {
   top: 0px !important;
   right: 5px !important;
 }
+.discuss-form {
+  margin-top: 40px;
+}
 .discuss-form .model_body {
   padding-top: 10px !important;
 }
