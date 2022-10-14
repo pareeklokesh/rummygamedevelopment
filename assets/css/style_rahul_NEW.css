@@ -48,6 +48,9 @@ button:focus{
   color: #ff8f00;
   padding-bottom: 10px;
 }
+.modal .model_header h6 {
+  font-size: 15px;
+}
 .heading h2{
   text-align: center;
   font-weight: bold;
